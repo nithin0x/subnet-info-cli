@@ -15,3 +15,6 @@ pipx install subnet-info-cli
 ```bash
 pipx upgrade subnet-info-cli
 ```
+
+## Contributing
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
