@@ -1,26 +1,17 @@
 # subnet-info
 
-CLI tool to inspect your public/local IPs, generate CIDR variants, and print sample AWS Security Group ingress rules.
+## Purpose
+`subnet-info` helps you quickly identify your public/local IP details and subnet context for firewall/security-group allowlisting.
 
-## Install locally with pipx
+## License
+[MIT License](./LICENSE).
 
+## Steps to Install
 ```bash
-pipx install .
+pipx install subnet-info-cli
 ```
 
-## Run
-
+## Steps to Upgrade
 ```bash
-subnet-info
+pipx upgrade subnet-info-cli
 ```
-
-## Publish to PyPI
-
-```bash
-pip install build twine
-python -m build
-twine upload dist/*
-```
-# subnet-info
-# subnet-info
-# subnet-info

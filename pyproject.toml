@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "subnet-info"
-version = "0.1.0"
+name = "subnet-info-cli"
+version = "0.1.1"
 description = "Show your IP subnet for AWS firewall rules"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -14,3 +14,6 @@ authors = [
 
 [project.scripts]
 subnet-info = "subnet_info.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/subnet_info"]
